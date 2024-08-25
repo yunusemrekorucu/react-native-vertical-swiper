@@ -9,6 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yunusemrekorucu/react-native-vertical-swiper/issues"
+  },
+  "homepage": "https://github.com/yunusemrekorucu/react-native-vertical-swiper",
   "devDependencies": {
     "@types/react": "^18.3.4",
     "@types/react-native": "^0.73.0",
