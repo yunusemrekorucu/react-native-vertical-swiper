@@ -47,7 +47,7 @@ const VerticalSwiper = ({
       extrapolate: "clamp",
     });
 
-    if (item.image_url === undefined) {
+    if (item?.title === "$spacer-item") {
       return <View style={{ height: SPACER_ITEM_SIZE }} />;
     }
 
@@ -92,7 +92,7 @@ const VerticalSwiper = ({
         snapToInterval={ITEM_SIZE}
         scrollEnabled
         showsVerticalScrollIndicator={false}
-        data={data}
+        data={[{ title: "$spacer-item" }, ...data, { title: "$spacer-item" }]}
         renderItem={verticalItem}
       />
     </View>
