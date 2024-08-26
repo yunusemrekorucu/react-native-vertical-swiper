@@ -1,8 +1,8 @@
 {
   "name": "react-native-vertical-swiper",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "An animated vertical swiper for React Native that offers smooth scrolling and customizable item rendering for a sleek, interactive user experience. 📚📚📚",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -12,6 +12,10 @@
   "bugs": {
     "url": "https://github.com/yunusemrekorucu/react-native-vertical-swiper/issues"
   },
+  "files": [
+    "dist/",
+    "index.ts"
+  ],
   "homepage": "https://github.com/yunusemrekorucu/react-native-vertical-swiper",
   "devDependencies": {
     "@types/react": "^18.3.4",
